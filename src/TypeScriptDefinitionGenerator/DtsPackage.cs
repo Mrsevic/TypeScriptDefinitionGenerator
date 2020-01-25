@@ -6,7 +6,6 @@ using System;
 using System.Runtime.InteropServices;
 using System.Threading;
 using Tasks = System.Threading.Tasks;
-
 namespace TypeScriptDefinitionGenerator
 {
     [Guid(PackageGuids.guidDtsPackageString)]

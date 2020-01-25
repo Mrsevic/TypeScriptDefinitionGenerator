@@ -508,7 +508,7 @@ namespace TypeScriptDefinitionGenerator
             }
             catch (Exception ex)
             {
-                Telemetry.TrackException("GetSummary", ex);
+                //Telemetry.TrackException("GetSummary", ex);
                 return null;
             }
         }
