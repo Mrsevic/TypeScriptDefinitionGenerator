@@ -25,7 +25,7 @@ namespace TypeScriptDefinitionGenerator.Helpers
         public static string GetDefaultExtension(string originalExt)
         {
             string declaredExt = Options.DeclareModule ? ".d" : string.Empty;
-            string ext = $".generated{declaredExt}.ts";
+            string ext = $".cs{declaredExt}.ts";
 
             if (Options.WebEssentials2015)
             {

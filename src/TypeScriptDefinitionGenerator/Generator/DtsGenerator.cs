@@ -1,4 +1,5 @@
 ﻿using EnvDTE;
+using Microsoft.VisualStudio.Telemetry;
 using Microsoft.VisualStudio.TextTemplating.VSHost;
 using System;
 using System.IO;

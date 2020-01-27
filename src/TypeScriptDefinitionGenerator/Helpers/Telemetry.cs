@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualStudio.Telemetry;
+using System;
 
 namespace TypeScriptDefinitionGenerator
 {
